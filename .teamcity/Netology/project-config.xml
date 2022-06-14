@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="a5109769-300f-4446-9e21-cc6176e6b737" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>netology</name>
+  <parameters>
+    <param name="cat_name" value="Wall" />
+    <param name="env.cat_name" value="%cat_name%" />
+    <param name="env.name" value="Pavel" />
+  </parameters>
+  <project-extensions>
+    <extension id="PROJECT_EXT_2" type="JetBrains.SharedResources">
+      <parameters>
+        <param name="name" value="ya" />
+        <param name="quota" value="100" />
+        <param name="type" value="quoted" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_3" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="rootId" value="Netology_GitGithubComPavelmmExampleTeamcityGitRefsHeadsMaster" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+
